@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hellodump"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Rince <s@rince.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.16.0"
+selenium-wire = "^5.1.0"
+pandas = "^2.1.4"
+plotly = "^5.18.0"
+streamlit = "^1.29.0"
+watchdog = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
